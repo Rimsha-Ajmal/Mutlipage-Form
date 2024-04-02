@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    display: flex;  
+}
+
+#container > .box {
+    display: flex;
+    background-color: #EAEAEA;
+    margin: 30px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#content {
+    display: flex;
+}
+
+#content > fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 400px;
+}
+
+#content > fieldset > legend {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#content > fieldset > label {
+    padding: 20px;
+}
+
+#content > fieldset > label > input {
+    border: 1px solid black;
+    padding: 10px 80px;
+}
+
+/* Account */
+#container > #account-box1 {
+    background-color: #38F3B7;
+}
+
+#account-buttons > a > button {
+    padding: 8px 12px;
+    font-size: 18px;
+    margin: 90px 10px;
+    background-color: #EAEAEA;
+    border: none;
+}
+
+#account-buttons > a > #btn2 {
+    background-color: #004EAA;
+    color: white;
+}
+
+/* Personal details */
+#container > #personalDetail-box2 {
+    background-color: #1073e4;
+}
+
+#personalDetail-buttons > a > button {
+    padding: 8px 12px;
+    font-size: 18px;
+    margin: 70px 10px;
+    background-color: #EAEAEA;
+    border: none;
+}
+
+#personalDetail-buttons > a > #btn2 {
+    background-color: #004EAA;
+    color: white;
+}
+
+/* Review */
+#container > #review-box2 {
+    background-color: #38F3B7;
+}
+
+#container > #review-box3 {
+    background-color: #1073e4;
+}
+
+#review-buttons > a > #btn3 {
+    background-color: rgb(48, 133, 48);
+    color: white;
+}
+
+#review-buttons > a > button {
+    padding: 8px 12px;
+    font-size: 18px;
+    margin: 5px 10px;
+    background-color: #EAEAEA;
+    border: none;
+}
+
+#review-buttons > a > #btn2 {
+    background-color: #004EAA;
+    color: white;
+}
+
+

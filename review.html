@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div class="box" id="account-box1"><b>Step 1: ACCOUNT</b></div>
+            <div class="box" id="review-box2"><b>Step 2: PERSONAL DETAIL</b></div>
+            <div class="box" id="review-box3"><b>Step 3: YOUR REVIEW</b></div>
+        </div>
+    <div id="content">
+        <fieldset>
+            <legend><b>Your Review</b></legend>
+                <label for="hear"><b>How did you hear about us?</b>
+                    <select name="hear" required>
+                        <option selected disabled>Select</option>
+                        <option value="1">Google</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Friend</option>
+                        <option value="4">Relative</option>
+                        <option value="5">Advertising</option>
+                        <option value="6">Other</option>
+                    </select>
+                </label>
+                <label for="visit"><b>Would you visit again?</b>
+                    <input type="radio" name="visit" value="yes"> Yes
+                    <input type="radio" name="visit" value="no"> No
+                    <input type="radio" name="visit" value="maybe"> Maybe
+                </label>
+                <label for="comment"><b>Comment</b>
+                    <br> 
+                    <textarea name="comment" cols="30" rows="10" required>Enter your comment</textarea>
+                </label>
+                <label for="checkbox">
+                <input type="checkbox" name="checkbox" required> Sign me up for Email updates
+                </label>
+                <div id="review-buttons">
+                    <a href="personalDetail.html"><button class="btn" id="btn1">Back</button></a>
+                    <a href="form.html"><button class="btn" id="btn3">Submit</button></a>
+                </div>
+        </fieldset>
+    </div>
+</div>
+</div>
+</body>
+</html>
